@@ -22,5 +22,5 @@ async def on_ready():
     await bot.tree.sync()
     print(f'Logged in as {bot.user.name} - {bot.user.id}')
 
-# Run the bot
+# Run the bo
 bot.run(token)
